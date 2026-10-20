@@ -12,6 +12,12 @@
     });
   }
 
+  var header = document.querySelector('.site-header');
+  function measureHeader() {
+    var sticky = header && getComputedStyle(header).position === 'sticky';
+    document.documentElement.style.setProperty('--header-h', sticky ? header.offsetHeight + 'px' : '0px');
+  }
+
   function update() {
     var line = window.innerHeight * 0.3, current = null;
     sections.forEach(function (s) { if (s && s.getBoundingClientRect().top <= line) current = s; });
@@ -29,6 +35,7 @@
 
   document.addEventListener('click', focusTarget);
   window.addEventListener('scroll', update, { passive: true });
-  window.addEventListener('resize', update);
+  window.addEventListener('resize', function () { measureHeader(); update(); });
+  measureHeader();
   update();
 })();
