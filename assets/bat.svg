@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" role="img" aria-labelledby="t"><title id="t">A wooden baseball bat</title>
+<path d="M22 34h86c28 0 40-16 76-16h28c10 0 16 8 16 22s-6 22-16 22h-28c-36 0-48-16-76-16H22z" fill="#c98a5a" stroke="#7d3418" stroke-width="4" stroke-linejoin="round"/>
+<rect x="6" y="30" width="18" height="20" rx="5" fill="#7d3418"/>
+<path d="M196 28v24M208 28v24" stroke="#7d3418" stroke-width="2" opacity=".5"/>
+</svg>

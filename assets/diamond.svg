@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 220" role="img" aria-labelledby="t"><title id="t">A baseball diamond with four bases and a pitcher's mound</title>
+<path d="M20 90C50 30 190 30 220 90L120 210z" fill="#5a9a5e" stroke="#123d22" stroke-width="4" stroke-linejoin="round"/>
+<path d="M120 80l56 56-56 56-56-56z" fill="#c98a5a" stroke="#7d3418" stroke-width="3"/>
+<path d="M120 100l36 36-36 36-36-36z" fill="#5a9a5e"/>
+<circle cx="120" cy="136" r="9" fill="#c98a5a" stroke="#7d3418" stroke-width="2"/>
+<g fill="#ffffff" stroke="#18241c" stroke-width="2">
+<rect x="109" y="69" width="22" height="22" transform="rotate(45 120 80)"/>
+<rect x="165" y="125" width="22" height="22" transform="rotate(45 176 136)"/>
+<rect x="53" y="125" width="22" height="22" transform="rotate(45 64 136)"/></g>
+<path d="M108 192h24v8l-12 8-12-8z" fill="#ffffff" stroke="#18241c" stroke-width="2" transform="translate(0 -18)"/>
+</svg>

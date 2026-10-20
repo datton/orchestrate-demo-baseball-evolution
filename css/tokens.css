@@ -1,9 +1,51 @@
-/* Design tokens (owner: Designer). Placeholder: set a classic baseball look. */
+/* Design tokens (owner: Designer).
+   Palette: ballpark greens, leather, chalk.
+   - Chalk-white paper background, deep-ink green text.
+   - Outfield green is the accent; leather brown and stitch red are sparing highlights.
+   - Infield clay and grass tints are for fills and illustration only, not text.
+   Contrast on --color-bg (#f7f4ea): text 14.6:1, muted 7.3, accent 7.4, leather 8.0,
+   stitch 6.8, focus 11.1; on --color-surface all >= 6.3:1 (AA+). */
 :root {
-  --color-bg: #fbf8f1;
-  --color-text: #1c1c24;
-  --color-accent: #1d3a6b;
+  /* Colour */
+  --color-bg: #f7f4ea;
+  --color-surface: #e6eedc;
+  --color-text: #18241c;
+  --color-muted: #46544a;
+  --color-accent: #1f5a34;
+  --color-accent-strong: #123d22;
+  --color-leather: #7d3418;
+  --color-stitch: #a3202a;
+  --color-clay: #c98a5a;
+  --color-grass: #5a9a5e;
+  --color-chalk: #ffffff;
+  --color-rule: #bccdb2;
+  --color-focus: #123d22;
+
+  /* Type: classic serif headings (old scorecard feel), system sans body */
   --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --font-heading: Georgia, "Times New Roman", serif;
+  --font-stat: ui-monospace, "SF Mono", Consolas, monospace;
+
+  /* Type scale (ratio ~1.25) */
+  --text-sm: 0.875rem;
+  --text-base: 1.0625rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5625rem;
+  --text-2xl: 1.953rem;
+  --text-3xl: 2.441rem;
+  --text-4xl: clamp(2.5rem, 6vw, 3.815rem);
+  --leading-tight: 1.15;
+  --leading-body: 1.65;
+  --measure: 66ch;
+  --tracking-caps: 0.08em;
+
+  /* Spacing and shape */
   --space: 1rem;
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --space-xl: 4rem;
+  --radius: 6px;
+  --rule-width: 3px;
 }

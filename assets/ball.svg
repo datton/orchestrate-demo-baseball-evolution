@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="t"><title id="t">A baseball with red stitching</title>
+<circle cx="80" cy="80" r="70" fill="#ffffff" stroke="#18241c" stroke-width="4"/>
+<g fill="none" stroke="#a3202a" stroke-width="4" stroke-linecap="round">
+<path d="M44 22c22 18 22 98 0 116"/><path d="M116 22c-22 18-22 98 0 116"/></g>
+<g stroke="#a3202a" stroke-width="3" stroke-linecap="round">
+<path d="M42 38l12 3M46 56l13 2M48 74l13 1M48 92l13-1M46 110l13-2M42 126l12-3"/>
+<path d="M118 38l-12 3M114 56l-13 2M112 74l-13 1M112 92l-13-1M114 110l-13-2M118 126l-12-3"/></g>
+</svg>
