@@ -1,0 +1,8 @@
+/* Base styles (owner: Lead Developer). */
+body { margin: 0; background: var(--color-bg); color: var(--color-text); font-family: var(--font-body); line-height: 1.6; }
+h1, h2, h3 { font-family: var(--font-heading); color: var(--color-accent); }
+a { color: var(--color-accent); }
+a:focus-visible { outline: 3px solid var(--color-accent); outline-offset: 2px; }
+.site-header, .site-footer { padding: var(--space); }
+
+img { max-width: 100%; height: auto; display: block; margin: var(--space) 0; }
